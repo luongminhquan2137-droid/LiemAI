@@ -9,7 +9,7 @@ chat_history = []
 
 load_dotenv()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY_V15")
-SYS_PROMPT = ""  # Khai báo biến toàn cục chứa luật AI
+SYS_PROMPT = ""
 
 
 #Đọc và nạp biến {name} trong injection prompt
