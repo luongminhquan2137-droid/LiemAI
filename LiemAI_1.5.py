@@ -88,10 +88,10 @@ if __name__ == "__main__":
             print("\n" + "*" * 15)
             print("Cuộc trò chuyện đã đạt giới hạn...")
             print(f"Bản dùng thử chỉ cho phép hỏi {QuestionLimit} câu.")
-            print("Vui lòng liên hệ Lương Minh Quân để nâng cấp LiemAI Premium nhé !")
+            print("Vui lòng liên hệ để nâng cấp LiemAI Premium nhé !")
             print("#" * 15 + "\n")
             
-            if input("Nhập key: ").strip() == "MINHQUANLUONG2137v2":
+            if input("Nhập key: ").strip() == "key":
                 print("Welcome to LiemAI PREMIUM\n")
                 check = 1
                 while True:
