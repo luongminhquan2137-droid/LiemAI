@@ -198,7 +198,7 @@ if __name__ == "__main__":
    
 
 
-    # Hỏi chế độ lưu trữ trước khi bắt đầu phiên
+    # Hỏi chế độ lưu trữ trước khi bắt đầu phiên trò chuyện
     storage_choice = input("Bạn có muốn lưu trữ cuộc trò chuyện lâu dài không? (Y/N): ").strip().lower()
     if storage_choice == 'y':
         is_persistent = True
@@ -229,7 +229,7 @@ if __name__ == "__main__":
             console.print("[yellow]Please subscribe to the Premium plan to receive the extension key. ![/yellow]")
             console.print("[bold yellow]<=======================================================================================>[/bold yellow]\n")
 
-            if input("Input key: ").strip() == "MINHQUANLUONG2137v3":
+            if input("Input key: ").strip() == "key":
                 console.print(Panel.fit("[bold magenta]Welcome to LiemAI 2.0 PREMIUM[/bold magenta]", border_style="magenta"))
                 check = 1
                 while True:
