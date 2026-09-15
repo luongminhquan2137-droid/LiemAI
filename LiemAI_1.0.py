@@ -75,7 +75,7 @@ if __name__ == "__main__":
             print("\n" + "💰"*15)
             print("Đoạn chat của bạn đã đến giới hạn...")
             print(f"Bản dùng thử chỉ cho phép hỏi {QuestionLimit} câu.")
-            print("Vui lòng bank 500k vào số tài khoản ngài Lương Minh Quân để nâng cấp LiemAI Premium nhé !")
+            print("Vui lòng đăng kí để nâng cấp LiemAI Premium nhé !")
             print("💰"*15 + "\n")
             if input("Nhập key: ") == "MINHQUANLUONG2137":
                 print("Welcome to LiemAI PREMIUM")
