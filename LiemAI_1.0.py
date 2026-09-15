@@ -77,7 +77,7 @@ if __name__ == "__main__":
             print(f"Bản dùng thử chỉ cho phép hỏi {QuestionLimit} câu.")
             print("Vui lòng đăng kí để nâng cấp LiemAI Premium nhé !")
             print("💰"*15 + "\n")
-            if input("Nhập key: ") == "MINHQUANLUONG2137":
+            if input("Nhập key: ") == "key":
                 print("Welcome to LiemAI PREMIUM")
                 check = 1
                 while True:
