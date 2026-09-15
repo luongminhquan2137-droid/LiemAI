@@ -13,7 +13,7 @@ def load_prompt(file_path, user_name):
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             template = f.read()
-        # Thay thế placeholder {name} bằng tên người dùng nhập vào
+
         return template.replace("{name}", user_name)
     except FileNotFoundError:
         return f"You are LiemAI chatting with {user_name}."
