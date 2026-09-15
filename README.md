@@ -19,6 +19,10 @@ Try my first Vietnamese rebadged Chatbot (")>
 * Heartfelt gratitude to **Google** and the **Google AI Studio** team for providing the powerful Gemini models, high-performance API infrastructure, and developer-friendly tools that made this personal exploration possible.
 * Thanks to the open-source community behind foundational libraries like `rich` and `python-dotenv`.
 
+### Also special Thanks
+* Heartfelt gratitude to **Google** and the **Google AI Studio** team for providing the Gemini models and streaming API infrastructure powering LiemAI 2.0.
+* Big thanks to **Groq** for delivering the lightning-fast inference engine that originally powered the LiemAI 1.0 prototype.
+* Appreciation to the open-source community behind foundational Python libraries like `rich`, `requests`, and `python-dotenv`.
 
 ## 💡 How to Use LiemAI 2.0
 
