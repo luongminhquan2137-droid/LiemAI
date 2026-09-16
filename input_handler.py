@@ -3,11 +3,6 @@ from prompt_toolkit import prompt
 from prompt_toolkit.key_binding import KeyBindings
 
 def get_multiline_input(prompt_text="User: ") -> str:
-    """
-    Hàm nhận input đa dòng từ Terminal:
-    - Shift + Enter hoặc Alt + Enter: Xuống dòng
-    - Enter: Gửi tin nhắn
-    """
     bindings = KeyBindings()
 
     # Bắt sự kiện phím Enter thuần túy -> Gửi/Submit dữ liệu
