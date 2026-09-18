@@ -31,7 +31,7 @@ def AI_response(question):
     chat_history.append({"role": "user", "content": question})
 
     data = {
-        "model": "openai/gpt-oss-120b",
+        "model": "qwen/qwen3.8-27b",
         "messages": chat_history,
         "temperature": 0.7
     }
